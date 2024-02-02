@@ -14,7 +14,10 @@ function App() {
       {/* <div className="header"><img className="image" src={img} alt="quote" /></div> */}
       
 
-      <ContactList setSelectedContactId={setSelectedContactId}/>
+     
+
+      {selectedContactId ? (<SelectedContact setSelectedContactId={setSelectedContactId} selectedContactId={selectedContactId}/>):  <ContactList setSelectedContactId={setSelectedContactId}/> }
+
         
       
     </>

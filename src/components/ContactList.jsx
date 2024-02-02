@@ -31,7 +31,7 @@ function ContactList ({setSelectedContactId}) {
                 setContacts(result);
 
             } catch(error){
-                errorMsg = error.message;
+                setErrorMsg(error.message);
                 console.error(error);
             }
         }
@@ -53,9 +53,9 @@ function ContactList ({setSelectedContactId}) {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Name</td>
-                        <td>Email</td>
-                        <td>Phone</td>
+                        <td><h2>Name</h2></td>
+                        <td><h2>Email</h2></td>
+                        <td><h2>Phone</h2></td>
                     </tr>
                     {
                         contacts.map((contact)=>{

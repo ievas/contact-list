@@ -5,11 +5,10 @@ import SelectedContact from './SelectedContact'
 function ContactRow ({contact, setSelectedContactId}) {
     // console.log(contact)
 
-    let [showSelectedContact, setShowSelectedContact] = useState(false)
+    // let [showSelectedContact, setShowSelectedContact] = useState(false)
 
     function handleClick(){
             setSelectedContactId(contact.id);
-            setShowSelectedContact(true);
     }
    
     return (
@@ -19,7 +18,6 @@ function ContactRow ({contact, setSelectedContactId}) {
                 <td>{contact.email}</td>
                 <td>{contact.phone}</td>
             </tr>
-            {showSelectedContact && <SelectedContact contact={contact} setShowSelectedContact={setShowSelectedContact}/>}
         </>
     )
     
