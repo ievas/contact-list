@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      {/* <div className="header"><img className="image" src={img} alt="quote" /></div> */}
+      <div className="header"><img className="image" src={img} alt="quote" /></div>
       
 
      

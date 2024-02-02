@@ -2,7 +2,7 @@ body {
   padding-top: 120px; 
 }
 
-/* #root {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -13,7 +13,7 @@ body {
   padding: 2em;
 } */
 
-/* .header{
+ .header{
   position: fixed;
   top: 0; 
   left: 0; 
@@ -24,7 +24,7 @@ body {
   font-size: 30px;
   z-index: 1000;
  
-} */
+}
 
 table {
   margin-left: auto;
