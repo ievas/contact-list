@@ -44,3 +44,11 @@ td{
   margin: 5px;
   padding: 2px;
 }
+
+.card {
+  
+  background-color: aliceblue;
+  border: solid 0.5px;
+  min-width: 23rem;
+  min-height: 12rem;
+}
