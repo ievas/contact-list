@@ -46,6 +46,7 @@ td{
 }
 
 .card {
+  position: relative;
   background-color: aliceblue;
   border: solid 0.5px;
   min-width: 23rem;
@@ -63,7 +64,6 @@ td{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent backdrop */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,8 +72,8 @@ td{
 
 .close-button {
   position: absolute;
-  top: 375px;
-  right: 470px;
+  top: 10px;
+  right: 10px;
   border: none;
   background: none;
   font-size: 20px;

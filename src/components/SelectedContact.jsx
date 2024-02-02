@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import ContactList from "./ContactList";
 
 function SelectedContact({setSelectedContactId, selectedContactId}){
 
@@ -27,6 +28,7 @@ function SelectedContact({setSelectedContactId, selectedContactId}){
 
     if(contact) {
     return <>
+        {/* <ContactList /> */}
         <div className="modal">
             <div className="card">
                 {selectedContactId && <button onClick={handleClick} className="close-button">x</button>}

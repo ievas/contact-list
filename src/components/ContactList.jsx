@@ -38,9 +38,6 @@ function ContactList ({setSelectedContactId}) {
         fetchContacts();
     }, []
     )
-
-    
-
     
     return (
         <>
@@ -62,6 +59,7 @@ function ContactList ({setSelectedContactId}) {
                             return <ContactRow key={contact.id} setSelectedContactId={setSelectedContactId} contact={contact}/>
                         })
                     }
+
                 </tbody>
                 
 
